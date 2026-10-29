@@ -1,0 +1,11 @@
+{
+  "process": "l410_virt_device_input",
+  "systemability": [
+    {
+      "name": 65610,
+      "libpath": "libvirtdevicebroker_service.z.so",
+      "run-on-create": true,
+      "auto-restart": false
+    }
+  ]
+}

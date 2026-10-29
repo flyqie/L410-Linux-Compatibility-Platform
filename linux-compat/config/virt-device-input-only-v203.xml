@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devices>
+  <device
+    name="input"
+    libpath="/system/lib64/libvirtdevice_input.z.so"
+    client="input"
+    socket_file="virt_input_broker/virtinput.sock"
+    use_rpc="true"
+    dead_time="0"
+    idle_time="0"
+    sessions="3"
+    send_mssage_capacity="8"
+    recv_byte_capacity="1024"
+  />
+</devices>
